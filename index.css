@@ -1,0 +1,3624 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+/* first section MainPage */
+
+.hex {
+    background-color: #170058;
+    padding: 5px;
+    padding-top: 15px;
+    margin-top: 10px;
+    -moz-border-radius-topleft: 10px;
+    min-height: 100vh;
+
+}
+
+.back1 {
+    color: white;
+}
+
+.sr-only {
+    color: black;
+}
+
+.font1 {
+    color: white;
+}
+
+.containerMainPage {
+    background-color: #170058;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.smallGetStartedMainPage {
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.fontMainPage {
+    background-color: #007bff;
+
+    text-shadow: 2px 2px 4px #000000;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 30px;
+    color: #30D6F7;
+}
+
+.headingMainPage {
+    color: #30D6F7;
+    font-size: 20px;
+    font-family: 'Bree Serif', sans-serif;
+    /* Corrected font family name */
+    padding-left: 10px;
+}
+
+.navBackground {
+    background-color: white !important;
+    border-radius: 5px;
+    /* Use !important to override Bootstrap styles */
+}
+
+.navbar-items-alignment {
+    text-align: right;
+}
+
+.navbar-nav {
+    justify-content: flex-end !important;
+}
+
+.fontFamilyMainPage {
+    font-family: bree Serif;
+}
+
+.welcomeHeadingMainPage {
+    color: #30D6F7;
+    font-family: bree Serif;
+    font-size: 50px;
+}
+
+.paraMainPage {
+    color: white;
+    font-family: Roboto, "helvetica neue", helvetica, arial, sans-serif;
+    font-style: oblique
+}
+
+.marginTopMainPage {
+    margin-top: 10%;
+}
+
+.getMainStarted {
+    color: white;
+    text-align: center;
+}
+
+.getStartedButtonMainPage {
+    /* background-color: skyblue; */
+    /* padding: 10px; */
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    color: red;
+    border-width: 0px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.GetPaddingMainPage {
+    padding-top: 120px;
+}
+
+.GetMarginMainPage {
+    margin-top: 10%;
+}
+
+.Background2MainPage {
+    background-color: white;
+    margin: 20px;
+}
+
+.Card1MainPage {
+
+    border-color: gold;
+    padding: 70px;
+    border-radius: 10px;
+}
+
+.image1MainPage {
+    height: 300px;
+}
+
+.GetPaddingMainPage1 {
+    padding: 30px;
+}
+
+.BusinessLoginMainPage {
+    background-color: #6EBB2D;
+    padding: 10px;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    color: white;
+    border-width: 0px;
+    margin-right: 20px;
+}
+
+.BusinessSignUpMainPage {
+    padding: 10px;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    color: black;
+    margin-right: 50px;
+    border-color: black;
+}
+
+.BusinessSignUpMainPage1 {
+    padding: 10px;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    color: black;
+    border-color: black;
+}
+
+.BusinessLoginMainPage1 {
+    background-color: #6EBB2D;
+    padding: 10px;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    color: white;
+    border-width: 0px;
+}
+
+.BusiHeadMainPage {
+    color: black;
+    font-family: bree Serif;
+}
+
+.paraMainPage1 {
+    color: black;
+    font-family: Roboto, "helvetica neue", helvetica, arial, sans-serif;
+    font-style: oblique
+}
+
+.greenMainpage {
+    background-color: skyblue;
+    font-family: Bree Serif;
+}
+
+.remo {
+    gap: 10%;
+    padding: 50px;
+}
+
+.brandMainpage {
+    font-family: bree Serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.userplusMainpage {
+    font-family: bree Serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.resoucesMainpage {
+    font-family: bree Serif;
+
+    font-size: 25px;
+}
+
+.padMediumMainPage {
+    padding-top: 60px;
+
+}
+
+
+
+
+
+
+
+/* section 2  UserLogin*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+
+    background: url('https://i.postimg.cc/mkfSvNMg/1699881146253.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.inputbox {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+input:focus~label,
+input:valid~label {
+    top: -5px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.forget {
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forget label input {
+    margin-right: 3px;
+
+}
+
+.forget label a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.forget label a:hover {
+    text-decoration: underline;
+}
+
+.userLoginButton {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.register {
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.register p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* section 3 Business Login */
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+
+    background: url('https://i.postimg.cc/mkfSvNMg/1699881146253.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#section100 {
+    background-image: url("https://i.postimg.cc/mkfSvNMg/1699881146253.jpg");
+}
+
+#section50 {
+    background-image: url("https://i.postimg.cc/mkfSvNMg/1699881146253.jpg");
+}
+
+.form-box {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.inputbox {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+input:focus~label,
+input:valid~label {
+    top: -5px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.forget {
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forget label input {
+    margin-right: 3px;
+
+}
+
+.forget label a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.forget label a:hover {
+    text-decoration: underline;
+}
+
+.businessLoginButton {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.register {
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.register p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* section 4  User SignUp */
+
+
+/* .loginBackground{
+    background-color: #007FF7;
+}
+.card{
+    background-color: white;
+    
+} */
+
+.UserSignUpMainHeadingEmail {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+
+    background: url('https://i.postimg.cc/d3gDH4T5/1699881623175.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.inputbox {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+input:focus~label,
+input:valid~label {
+    top: -5px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.forget {
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forget label input {
+    margin-right: 3px;
+
+}
+
+.forget label a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.forget label a:hover {
+    text-decoration: underline;
+}
+
+.userSignUpButtonEmail {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.register {
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.register p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}
+
+.send {
+    color: white;
+    font-size: 15px;
+}
+
+.otpverify1 {
+    display: none;
+}
+
+.register {
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+#otp-btn1 {
+    width: 20%;
+    margin-left: 5px;
+    border-width: 1px;
+    border-color: white;
+}
+
+.verifybox {
+    border-radius: 3px;
+    border-width: 0px;
+    width: 35%;
+    padding: 5px;
+}
+
+
+
+
+/* section 5 business signup */
+
+
+/* .loginBackground{
+    background-color: #007FF7;
+}
+.card{
+    background-color: white;
+    
+} */
+
+
+.businessSignUpMainHeadingEmail {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+
+    background: url('https://i.postimg.cc/d3gDH4T5/1699881623175.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.inputbox {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+input:focus~label,
+input:valid~label {
+    top: -5px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.forget {
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forget label input {
+    margin-right: 3px;
+
+}
+
+.forget label a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.forget label a:hover {
+    text-decoration: underline;
+}
+
+.BusinessSignUpButtonEmail {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.send {
+    color: white;
+    font-size: 15px;
+}
+
+.otpverify {
+    display: none;
+}
+
+.register {
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+#otp-btn {
+    width: 20%;
+    margin-left: 5px;
+    border-width: 1px;
+    border-color: white;
+}
+
+.verifybox {
+    border-radius: 3px;
+    border-width: 0px;
+    width: 35%;
+    padding: 5px;
+}
+
+.register p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* sixth section business service */
+
+
+.container1 {
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(135deg, #93a5cf 10%, #e4efe9 100%);
+    margin: 0;
+}
+
+.serviceIcon {
+    background-color: white;
+    margin: 0px;
+    padding: 10px;
+}
+
+.servicePad {
+    padding-top: 100px;
+}
+
+.services {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    background-color: white;
+    box-shadow: 7px 7px 5px;
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 50px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+
+.service:hover {
+    transform: translateY(-10px);
+}
+
+.service img {
+    width: 60%;
+    height: auto;
+    border-radius: 2px;
+}
+
+
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .service {
+        width: 48%;
+    }
+}
+
+@media (min-width: 992px) {
+    .service {
+        width: 40%;
+    }
+}
+
+.iconService {
+    font-size: 30px;
+    color: #30D6F7;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #007bff;
+}
+
+.headingServices {
+    font-size: 30px;
+    color: #007bff;
+    font-family: Bree Serif;
+}
+
+.headingServices1 {
+    font-size: 30px;
+    color: #007bff;
+    font-family: Bree Serif;
+}
+
+.serviceHead {
+    font-size: 35px;
+    font-family: Bree Serif;
+}
+
+.serviceSpan {
+    color: orange;
+    font-family: bree Serif;
+    font-size: 20px;
+}
+
+.serviceHead1 {
+    font-size: 25px;
+    font-family: bree Serif;
+}
+
+.serviceSpanSmall {
+    color: orange;
+    font-family: bree Serif;
+}
+
+.serviceHeadSmall {
+    font-size: 25px;
+    font-family: bree Serif;
+}
+
+
+/* seventh section business registration for skilled-workers */
+
+
+.center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: blue;
+}
+
+.container9 {
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    background-image: linear-gradient(135deg, #E3FDF5 10%, #FFE6FA 100%);
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.container9 header {
+    position: relative;
+    font-size: 25px;
+    font-weight: 600;
+    color: #333;
+    font-family: Bree Serif;
+}
+
+.container9 form {
+    position: relative;
+    margin-top: 16px;
+    min-height: 490px;
+    background-image: linear-gradient(135deg, #E3FDF5 10%, #FFE6FA 100%);
+    overflow: hidden;
+}
+
+.container9 form .form {
+    position: absolute;
+    background-image: linear-gradient(135deg, #E3FDF5 10%, #FFE6FA 100%);
+    transition: 0.3s ease;
+}
+
+.container9 form .form.second {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(100%);
+    position: absolute;
+}
+
+form.secActive .form.second {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(0);
+}
+
+form.secActive .form.first {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(-100%);
+}
+
+.container9 form .title {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 6px 0;
+    color: #333;
+    margin-bottom: 8px;
+    font-family: Bree Serif;
+}
+
+.container9 form .fields {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+form .fields .input-field {
+    display: flex;
+    width: calc(100% / 2 - 15px);
+    flex-direction: column;
+    margin: 4px 0;
+}
+
+.input-field input {
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 2px solid #FFDF4F;
+    height: 42px;
+    margin: 8px 0px;
+    padding: 0 15px;
+    font-family: Roboto;
+}
+
+.regSelect {
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 2px solid #FFDF4F;
+    height: 42px;
+    margin: 8px 0px;
+    padding: 0 15px;
+    font-family: Roboto;
+}
+
+.input-field label {
+    font-size: 12px;
+    font-weight: 500;
+    color: #2e2e2e;
+    font-family: Bree Serif;
+
+}
+
+.input-field input:is(:focus, :valid) {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+}
+
+.input-field input[type="date"] {
+    color: #707070;
+}
+
+.input-field input[type="date"]:valid {
+    color: #333;
+}
+
+/* .container9 form button,
+   .backBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    margin: 25px 0;
+    background-color: #4070f4;
+    transition: all 0.3s linear;
+    cursor: pointer;
+} */
+
+.container9 form button,
+.container9 form .backBtn {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+form button:hover {
+    background-color: #265df2;
+}
+
+form button i,
+form .backBtn i {
+    margin: 0 6px;
+}
+
+form .backBtn i {
+    transform: rotate(180deg);
+}
+
+form .buttons {
+    display: flex;
+    align-items: center;
+}
+
+form .buttons button,
+.backBtn {
+    margin-right: 14px;
+}
+
+.buttonRegistration {
+    background-color: #6EBB2D;
+    padding: 10px;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    color: white;
+    border-width: 0px;
+}
+
+.buttonBackRegistration {
+    padding: 10px;
+    height: 50px;
+    width: 150px;
+    border-width: 1px;
+    border-radius: 25px;
+    color: black;
+}
+
+@media (max-width: 750px) {
+    .container9 form {
+        overflow: scroll;
+    }
+
+    .container9 form::-webkit-scrollbar {
+        display: none;
+    }
+
+    form .fields .input-field {
+        width: calc(100% / 2 - 15px);
+    }
+}
+
+@media (max-width: 550px) {
+    form .fields .input-field {
+        width: 100%;
+    }
+}
+
+
+
+
+/* city search */
+
+
+
+#citySuggestionsListSkilled1 {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid #ccc;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#citySuggestionsListSkilled1 li {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+#citySuggestionsListSkilled1 li:last-child {
+    border-bottom: none;
+}
+
+
+
+
+
+
+
+
+/* area search */
+
+
+
+#roadSearchSuggestions {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid #ccc;
+    /* Add a border for a line between suggestions */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#roadSearchSuggestions li {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    /* Add a border bottom for a line between suggestions */
+    cursor: pointer;
+}
+
+#roadSearchSuggestions li:last-child {
+    border-bottom: none;
+    /* Remove border bottom for the last suggestion */
+}
+
+
+
+
+
+
+/* occupation search */
+
+
+
+
+.suggestionsOccupation {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+
+
+
+.suggestion-itemOccupationReg {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.suggestion-itemOccupationReg:hover {
+    background-color: #f2f2f2;
+}
+
+.backRegistration {
+    color: white;
+
+    margin-right: 10px;
+    padding: 10px;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    border-width: 0px;
+    font-family: bree Serif;
+}
+
+
+
+
+/*section8 User service page */
+
+
+
+.logOut {
+    text-align: center;
+    cursor: pointer;
+    color: blue;
+    font-family: Bree Serif;
+    font-size: 20px;
+}
+
+.backImageHomeToService {
+    margin-top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.container1 {
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(135deg, #93a5cf 10%, #e4efe9 100%);
+    margin: 0;
+}
+
+.serviceIcon {
+    background-color: white;
+    margin: 0px;
+    padding: 10px;
+}
+
+.services {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    background-color: white;
+    box-shadow: 7px 7px 5px;
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 50px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+
+.service:hover {
+    transform: translateY(-10px);
+}
+
+.service img {
+    width: 60%;
+    height: auto;
+    border-radius: 2px;
+}
+
+
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .service {
+        width: 48%;
+    }
+}
+
+@media (min-width: 992px) {
+    .service {
+        width: 40%;
+    }
+}
+
+.iconService {
+    font-size: 30px;
+    color: #30D6F7;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #007bff;
+}
+
+.headingServices {
+    font-size: 30px;
+    color: #007bff;
+    font-family: Bree Serif;
+}
+
+.serviceHead {
+    font-size: 35px;
+    font-family: Bree Serif;
+}
+
+.serviceSpan {
+    color: orange;
+    font-family: bree Serif;
+    font-size: 20px;
+}
+
+.serviceHead1 {
+    font-size: 25px;
+    font-family: bree Serif;
+}
+
+.serviceSpanSmall {
+    color: orange;
+    font-family: bree Serif;
+}
+
+.serviceHeadSmall {
+    font-size: 25px;
+    font-family: bree Serif;
+}
+
+
+
+/* section9 user home page */
+
+.inputLocation {
+    background-color: #F1F1E4;
+
+    border: 2px solid black;
+
+}
+
+.search-input {
+    border-width: 0px;
+    padding: 5px;
+    font-family: Bree Serif;
+}
+
+#suggestionsListSkilled {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+#suggestionsListSkilled li {
+    width: 100%;
+    /* Adjust the width as needed */
+    padding: 5px;
+    /* Optional: Add padding for better appearance */
+    border: 1px solid #ccc;
+    padding-left: 5px;
+    /* Optional: Add border for better visibility */
+}
+
+.bk {
+    margin-top: 0px;
+    background-color: #170058;
+}
+
+.serviceIcon2 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.serviceIcon1 {
+    background-color: white;
+    padding: 10px;
+}
+
+.iconService {
+    font-size: 30px;
+    color: #30D6F7;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #007bff;
+}
+
+
+
+.icon-left {
+    margin-right: 10px;
+    font-size: 30px;
+    color: orange;
+    /* Add some spacing between the icon and the search input */
+}
+
+.homeGuider {
+    color: #007bff;
+    font-size: 30px;
+    font-family: bree Serif;
+}
+
+
+
+
+
+
+/* occupation search*/
+
+
+.suggestionsOccupationSearch {
+    display: none;
+
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    left: 50%;
+    transform: translateX(-60%);
+    width: 60%;
+}
+
+#suggestionsOccupationSearchContainer {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    position: absolute;
+    z-index: 1;
+    /* Set z-index to make it appear in front of other elements */
+}
+
+.suggestion-item {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+/* dynamic home page */
+
+.card21 {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+    font-family: Bree Serif;
+}
+
+.card21:hover {
+    transform: translateY(-5px);
+}
+
+.image {
+    font-size: 80px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.search-container input[type=text] {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    font-size: 18px;
+}
+
+.search-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.search-container button:hover {
+    background-color: #45a049;
+}
+
+
+.card21:hover {
+    transform: translateY(-5px);
+}
+
+
+
+@media (max-width: 600px) {
+    .card21 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .card21 {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+/* section 10 property Registration form */
+
+
+.center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: blue;
+}
+
+.container9 {
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    background-image: linear-gradient(135deg, #E3FDF5 10%, #FFE6FA 100%);
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.container9 header {
+    position: relative;
+    font-size: 25px;
+    font-weight: 600;
+    color: #333;
+    font-family: Bree Serif;
+}
+
+.container9 form {
+    position: relative;
+    margin-top: 16px;
+    min-height: 490px;
+    background-image: linear-gradient(135deg, #E3FDF5 10%, #FFE6FA 100%);
+    overflow: hidden;
+}
+
+.container9 form .form {
+    position: absolute;
+    background-image: linear-gradient(135deg, #E3FDF5 10%, #FFE6FA 100%);
+    transition: 0.3s ease;
+}
+
+.container9 form .form.second {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(100%);
+    position: absolute;
+}
+
+form.secActive .form.second {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(0);
+}
+
+form.secActive .form.first {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(-100%);
+}
+
+.container9 form .title {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 6px 0;
+    color: #333;
+    margin-bottom: 8px;
+    font-family: Bree Serif;
+}
+
+.container9 form .fields {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+form .fields .input-field {
+    display: flex;
+    width: calc(100% / 2 - 15px);
+    flex-direction: column;
+    margin: 4px 0;
+}
+
+.input-field input {
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 2px solid #FFDF4F;
+    height: 42px;
+    margin: 8px 0px;
+    padding: 0 15px;
+    font-family: Roboto;
+}
+
+.regSelect {
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 2px solid #FFDF4F;
+    height: 42px;
+    margin: 8px 0px;
+    padding: 0 15px;
+    font-family: Roboto;
+}
+
+.input-field label {
+    font-size: 12px;
+    font-weight: 500;
+    color: #2e2e2e;
+    font-family: Bree Serif;
+
+}
+
+.input-field input:is(:focus, :valid) {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+}
+
+.input-field input[type="date"] {
+    color: #707070;
+}
+
+.input-field input[type="date"]:valid {
+    color: #333;
+}
+
+/* .container9 form button,
+   .backBtnProperty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    margin: 25px 0;
+    background-color: #4070f4;
+    transition: all 0.3s linear;
+    cursor: pointer;
+} */
+
+.container9 form button,
+.container9 form .backBtnProperty {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+form button:hover {
+    background-color: #265df2;
+}
+
+form button i,
+form .backBtnProperty i {
+    margin: 0 6px;
+}
+
+form .backBtnProperty i {
+    transform: rotate(180deg);
+}
+
+form .buttons {
+    display: flex;
+    align-items: center;
+}
+
+form .buttons button,
+.backBtnProperty {
+    margin-right: 14px;
+}
+
+.buttonRegistration {
+    background-color: #6EBB2D;
+    padding: 10px;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    color: white;
+    border-width: 0px;
+}
+
+.buttonBackRegistration {
+    padding: 10px;
+    height: 50px;
+    width: 150px;
+    border-width: 1px;
+    border-radius: 25px;
+    color: black;
+}
+
+@media (max-width: 750px) {
+    .container9 form {
+        overflow: scroll;
+    }
+
+    .container9 form::-webkit-scrollbar {
+        display: none;
+    }
+
+    form .fields .input-field {
+        width: calc(100% / 2 - 15px);
+    }
+}
+
+@media (max-width: 550px) {
+    form .fields .input-field {
+        width: 100%;
+    }
+}
+
+
+
+
+/* city search */
+
+
+
+#citySuggestionsProperty {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid #ccc;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#citySuggestionsProperty li {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+#citySuggestionsProperty li:last-child {
+    border-bottom: none;
+}
+
+
+
+
+
+
+
+
+/* area search */
+
+
+
+#roadSearchSuggestionsProperty {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid #ccc;
+    /* Add a border for a line between suggestions */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#roadSearchSuggestionsProperty li {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    /* Add a border bottom for a line between suggestions */
+    cursor: pointer;
+}
+
+#roadSearchSuggestionsProperty li:last-child {
+    border-bottom: none;
+    /* Remove border bottom for the last suggestion */
+}
+
+
+
+
+
+
+/* occupation search */
+
+
+
+
+.suggestionsOccupation {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+
+
+
+.suggestion-itemOccupationReg {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.suggestion-itemOccupationReg:hover {
+    background-color: #f2f2f2;
+}
+
+.backRegistration {
+    color: white;
+
+    margin-right: 10px;
+    padding: 10px;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    border-width: 0px;
+    font-family: bree Serif;
+}
+
+
+
+
+
+/* section 11 user property home page */
+
+
+
+
+.homeGuider {
+    color: #007bff;
+    font-size: 30px;
+    font-family: bree Serif;
+}
+
+.search-input {
+    border-width: 0px;
+    padding: 5px;
+    font-family: Bree Serif;
+}
+
+#suggestionsListProperty2 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    /* Set a higher z-index for the city suggestions */
+}
+
+#suggestionsOccupationSearchContainerProperty2 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    position: absolute;
+    z-index: 1;
+    /* Set a lower z-index for the occupation suggestions */
+}
+
+
+#suggestionsListProperty2 li {
+    width: 100%;
+    /* Adjust the width as needed */
+    padding: 5px;
+    /* Optional: Add padding for better appearance */
+    border: 1px solid #ccc;
+    padding-left: 5px;
+    /* Optional: Add border for better visibility */
+}
+
+.serviceIcon {
+    background-color: #F1F1E4;
+    padding: 10px;
+}
+
+.iconService {
+    font-size: 30px;
+    color: #30D6F7;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #007bff;
+}
+
+
+
+.icon-left {
+    margin-right: 10px;
+    font-size: 30px;
+    color: orange;
+    /* Add some spacing between the icon and the search input */
+}
+
+/* occupation search*/
+
+
+.suggestionsOccupationSearch {
+    display: none;
+
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    left: 50%;
+    transform: translateX(-60%);
+    width: 60%;
+}
+
+
+
+.suggestion-item {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+/* dynamic home page */
+
+.card21 {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+    font-family: Bree Serif;
+}
+
+.card21:hover {
+    transform: translateY(-5px);
+}
+
+.rent {
+    border-style: solid;
+    border-color: #E7E9EB;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.image1 {
+    height: 130px;
+}
+
+.image {
+    height: 80px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.search-container input[type=text] {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    font-size: 18px;
+}
+
+.search-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.search-container button:hover {
+    background-color: #45a049;
+}
+
+.card21 {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card21:hover {
+    transform: translateY(-5px);
+}
+
+
+
+@media (max-width: 600px) {
+    .card21 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .card21 {
+        width: 100%;
+    }
+}
+
+
+
+
+/* section 12 registration for parttimes */
+
+
+
+.center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: blue;
+}
+
+.container9 {
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    background-image: linear-gradient(135deg, #E3FDF5 10%, #FFE6FA 100%);
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.container9 header {
+    position: relative;
+    font-size: 25px;
+    font-weight: 600;
+    color: #333;
+    font-family: Bree Serif;
+}
+
+.container9 form {
+    position: relative;
+    margin-top: 16px;
+    min-height: 490px;
+    background-image: linear-gradient(135deg, #E3FDF5 10%, #FFE6FA 100%);
+    overflow: hidden;
+}
+
+.container9 form .form {
+    position: absolute;
+    background-image: linear-gradient(135deg, #E3FDF5 10%, #FFE6FA 100%);
+    transition: 0.3s ease;
+}
+
+.container9 form .form.second {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(100%);
+    position: absolute;
+}
+
+form.secActive .form.second {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(0);
+}
+
+form.secActive .form.first {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(-100%);
+}
+
+.container9 form .title {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 6px 0;
+    color: #333;
+    margin-bottom: 8px;
+    font-family: Bree Serif;
+}
+
+.container9 form .fields {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+form .fields .input-field {
+    display: flex;
+    width: calc(100% / 2 - 15px);
+    flex-direction: column;
+    margin: 4px 0;
+}
+
+.input-field input {
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 2px solid #FFDF4F;
+    height: 42px;
+    margin: 8px 0px;
+    padding: 0 15px;
+    font-family: Roboto;
+}
+
+.regSelect {
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 2px solid #FFDF4F;
+    height: 42px;
+    margin: 8px 0px;
+    padding: 0 15px;
+    font-family: Roboto;
+}
+
+.input-field label {
+    font-size: 12px;
+    font-weight: 500;
+    color: #2e2e2e;
+    font-family: Bree Serif;
+
+}
+
+.input-field input:is(:focus, :valid) {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+}
+
+.input-field input[type="date"] {
+    color: #707070;
+}
+
+.input-field input[type="date"]:valid {
+    color: #333;
+}
+
+/* .container9 form button,
+   .backBtnParttime {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    margin: 25px 0;
+    background-color: #4070f4;
+    transition: all 0.3s linear;
+    cursor: pointer;
+} */
+
+.container9 form button,
+.container9 form .backBtnParttime {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+form button:hover {
+    background-color: #265df2;
+}
+
+form button i,
+form .backBtnParttime i {
+    margin: 0 6px;
+}
+
+form .backBtnParttime i {
+    transform: rotate(180deg);
+}
+
+form .buttons {
+    display: flex;
+    align-items: center;
+}
+
+form .buttons button,
+.backBtnParttime {
+    margin-right: 14px;
+}
+
+.buttonRegistration {
+    background-color: #6EBB2D;
+    padding: 10px;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    color: white;
+    border-width: 0px;
+}
+
+.buttonBackRegistration {
+    padding: 10px;
+    height: 50px;
+    width: 150px;
+    border-width: 1px;
+    border-radius: 25px;
+    color: black;
+}
+
+@media (max-width: 750px) {
+    .container9 form {
+        overflow: scroll;
+    }
+
+    .container9 form::-webkit-scrollbar {
+        display: none;
+    }
+
+    form .fields .input-field {
+        width: calc(100% / 2 - 15px);
+    }
+}
+
+@media (max-width: 550px) {
+    form .fields .input-field {
+        width: 100%;
+    }
+}
+
+
+
+
+/* city search */
+
+
+
+#citySuggestionsListPartTime {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid #ccc;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#citySuggestionsListPartTime li {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+#citySuggestionsListPartTime li:last-child {
+    border-bottom: none;
+}
+
+
+
+
+
+
+
+
+/* area search */
+
+
+
+#roadSearchSuggestionsListParttime {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid #ccc;
+    /* Add a border for a line between suggestions */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#roadSearchSuggestionsListParttime li {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    /* Add a border bottom for a line between suggestions */
+    cursor: pointer;
+}
+
+#roadSearchSuggestionsListParttime li:last-child {
+    border-bottom: none;
+    /* Remove border bottom for the last suggestion */
+}
+
+
+
+
+
+
+/* occupation search */
+
+
+
+
+.suggestionsOccupation {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+
+
+
+.suggestion-itemOccupationReg {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.suggestion-itemOccupationReg:hover {
+    background-color: #f2f2f2;
+}
+
+.backRegistration {
+    color: white;
+
+    margin-right: 10px;
+    padding: 10px;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    border-width: 0px;
+    font-family: bree Serif;
+}
+
+
+/* section 13 user home page for part time */
+
+
+
+
+
+
+
+
+.homeGuider {
+    color: #007bff;
+    font-size: 30px;
+    font-family: bree Serif;
+}
+
+.search-input {
+    border-width: 0px;
+    padding: 5px;
+    font-family: Bree Serif;
+}
+
+#suggestionsListPartTime {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    /* Set a higher z-index for the city suggestions */
+}
+
+#suggestionsOccupationSearchContainerPartTime {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    position: absolute;
+    z-index: 1;
+    /* Set a lower z-index for the occupation suggestions */
+}
+
+
+#suggestionsListPartTime li {
+    width: 100%;
+    /* Adjust the width as needed */
+    padding: 5px;
+    /* Optional: Add padding for better appearance */
+    border: 1px solid #ccc;
+    padding-left: 5px;
+    /* Optional: Add border for better visibility */
+}
+
+.serviceIcon {
+    background-color: #F1F1E4;
+    padding: 10px;
+}
+
+.iconService {
+    font-size: 30px;
+    color: #30D6F7;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #007bff;
+}
+
+
+
+.icon-left {
+    margin-right: 10px;
+    font-size: 30px;
+    color: orange;
+    /* Add some spacing between the icon and the search input */
+}
+
+/* occupation search*/
+
+
+.suggestionsOccupationSearch {
+    display: none;
+
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    left: 50%;
+    transform: translateX(-60%);
+    width: 60%;
+}
+
+
+
+.suggestion-item {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+/* dynamic home page */
+
+.card21 {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+    font-family: Bree Serif;
+}
+
+.card21:hover {
+    transform: translateY(-5px);
+}
+
+.image {
+    font-size: 80px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.search-container input[type=text] {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    font-size: 18px;
+}
+
+.search-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.search-container button:hover {
+    background-color: #45a049;
+}
+
+.card21 {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card21:hover {
+    transform: translateY(-5px);
+}
+
+
+
+@media (max-width: 600px) {
+    .card21 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .card21 {
+        width: 100%;
+    }
+}
+
+
+
+/* section 14 user registration form for location */
+
+
+
+.center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: blue;
+}
+
+.container9 {
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    background-image: linear-gradient(135deg, #E3FDF5 10%, #FFE6FA 100%);
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.container9 header {
+    position: relative;
+    font-size: 25px;
+    font-weight: 600;
+    color: #333;
+    font-family: Bree Serif;
+}
+
+.container9 form {
+    position: relative;
+    margin-top: 16px;
+    min-height: 490px;
+    background-image: linear-gradient(135deg, #E3FDF5 10%, #FFE6FA 100%);
+    overflow: hidden;
+}
+
+.container9 form .form {
+    position: absolute;
+    background-image: linear-gradient(135deg, #E3FDF5 10%, #FFE6FA 100%);
+    transition: 0.3s ease;
+}
+
+.container9 form .form.second {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(100%);
+    position: absolute;
+}
+
+form.secActive .form.second {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(0);
+}
+
+form.secActive .form.first {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(-100%);
+}
+
+.container9 form .title {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 6px 0;
+    color: #333;
+    margin-bottom: 8px;
+    font-family: Bree Serif;
+}
+
+.container9 form .fields {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+form .fields .input-field {
+    display: flex;
+    width: calc(100% / 2 - 15px);
+    flex-direction: column;
+    margin: 4px 0;
+}
+
+.input-field input {
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 2px solid #FFDF4F;
+    height: 42px;
+    margin: 8px 0px;
+    padding: 0 15px;
+    font-family: Roboto;
+}
+
+.regSelect {
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 2px solid #FFDF4F;
+    height: 42px;
+    margin: 8px 0px;
+    padding: 0 15px;
+    font-family: Roboto;
+}
+
+.input-field label {
+    font-size: 12px;
+    font-weight: 500;
+    color: #2e2e2e;
+    font-family: Bree Serif;
+
+}
+
+.input-field input:is(:focus, :valid) {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+}
+
+.input-field input[type="date"] {
+    color: #707070;
+}
+
+.input-field input[type="date"]:valid {
+    color: #333;
+}
+
+/* .container9 form button,
+   .backBtnLocation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    margin: 25px 0;
+    background-color: #4070f4;
+    transition: all 0.3s linear;
+    cursor: pointer;
+} */
+
+.container9 form button,
+.container9 form .backBtnLocation {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+form button:hover {
+    background-color: #265df2;
+}
+
+form button i,
+form .backBtnLocation i {
+    margin: 0 6px;
+}
+
+form .backBtnLocation i {
+    transform: rotate(180deg);
+}
+
+form .buttons {
+    display: flex;
+    align-items: center;
+}
+
+form .buttons button,
+.backBtnLocation {
+    margin-right: 14px;
+}
+
+.buttonRegistration {
+    background-color: #6EBB2D;
+    padding: 10px;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    color: white;
+    border-width: 0px;
+}
+
+.buttonBackRegistration {
+    padding: 10px;
+    height: 50px;
+    width: 150px;
+    border-width: 1px;
+    border-radius: 25px;
+    color: black;
+}
+
+@media (max-width: 750px) {
+    .container9 form {
+        overflow: scroll;
+    }
+
+    .container9 form::-webkit-scrollbar {
+        display: none;
+    }
+
+    form .fields .input-field {
+        width: calc(100% / 2 - 15px);
+    }
+}
+
+@media (max-width: 550px) {
+    form .fields .input-field {
+        width: 100%;
+    }
+}
+
+
+
+
+/* city search */
+
+
+
+#citySuggestionsListLocation {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid #ccc;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#citySuggestionsListLocation li {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+#citySuggestionsListLocation li:last-child {
+    border-bottom: none;
+}
+
+
+
+
+
+
+
+
+/* area search */
+
+
+
+#roadSearchSuggestionsLocation {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid #ccc;
+    /* Add a border for a line between suggestions */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#roadSearchSuggestionsLocation li {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    /* Add a border bottom for a line between suggestions */
+    cursor: pointer;
+}
+
+#roadSearchSuggestionsLocation li:last-child {
+    border-bottom: none;
+    /* Remove border bottom for the last suggestion */
+}
+
+
+
+
+
+
+/* occupation search */
+
+
+
+
+.suggestionsOccupation {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+
+
+
+.suggestion-itemOccupationReg {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.suggestion-itemOccupationReg:hover {
+    background-color: #f2f2f2;
+}
+
+.backRegistration {
+    color: white;
+
+    margin-right: 10px;
+    padding: 10px;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    border-width: 0px;
+    font-family: bree Serif;
+}
+
+
+
+
+
+
+/* section 15 user home page for location */
+
+#suggestionsListLocation {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    /* Set a higher z-index for the city suggestions */
+}
+
+#suggestionsOccupationSearchContainerLocation {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    position: absolute;
+    z-index: 1;
+    /* Set a lower z-index for the occupation suggestions */
+}
+
+
+#suggestionsListLocation li {
+    width: 100%;
+    /* Adjust the width as needed */
+    padding: 5px;
+    /* Optional: Add padding for better appearance */
+    border: 1px solid #ccc;
+    padding-left: 5px;
+    /* Optional: Add border for better visibility */
+}
+
+.homeGuider {
+    color: #007bff;
+    font-size: 30px;
+    font-family: bree Serif;
+}
+
+.hex {
+    background-color: #170058;
+    padding: 5px;
+    padding-top: 15px;
+    margin-top: 10px;
+    -moz-border-radius-topleft: 10px;
+    min-height: 100vh;
+}
+
+
+
+
+
+
+
+.homeGuider {
+    color: #007bff;
+    font-size: 30px;
+    font-family: bree Serif;
+}
+
+.search-input {
+    border-width: 0px;
+    padding: 5px;
+    font-family: Bree Serif;
+}
+
+
+.backImageHomeToService {
+    margin-top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.serviceIcon {
+    background-color: #F1F1E4;
+    padding: 10px;
+}
+
+.iconService {
+    font-size: 30px;
+    color: #30D6F7;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #007bff;
+}
+
+
+
+.icon-left {
+    margin-right: 10px;
+    font-size: 30px;
+    color: orange;
+    /* Add some spacing between the icon and the search input */
+}
+
+/* occupation search*/
+
+
+.suggestionsOccupationSearch {
+    display: none;
+
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    left: 50%;
+    transform: translateX(-60%);
+    width: 60%;
+}
+
+
+
+.suggestion-item {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+/* dynamic home page */
+
+.card21 {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+    font-family: Bree Serif;
+}
+
+.card21:hover {
+    transform: translateY(-5px);
+}
+
+.image {
+    font-size: 80px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.search-container input[type=text] {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    font-size: 18px;
+}
+
+.search-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.search-container button:hover {
+    background-color: #45a049;
+}
+
+.card21 {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card21:hover {
+    transform: translateY(-5px);
+}
+
+
+
+@media (max-width: 600px) {
+    .card21 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .card21 {
+        width: 100%;
+    }
+}
+
+
+
+
+
+/* section 16 Buisness home page for Skilled Workers */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.fontMainPage {
+    background-color: #007bff;
+
+    text-shadow: 2px 2px 4px #000000;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 30px;
+    color: #30D6F7;
+}
+
+.headingMainPage {
+    color: #30D6F7;
+    font-size: 25px;
+    font-family: 'Bree Serif', sans-serif;
+    /* Corrected font family name */
+    padding-left: 10px;
+}
+
+.navBackground {
+    background-color: white !important;
+    border-radius: 5px;
+    /* Use !important to override Bootstrap styles */
+}
+
+.businessSkilledHomePageContainer {
+    background-color: #E1F2F7;
+    min-height: 100vh;
+}
+
+
+.skilledStatusCard {
+    margin-top: 60px;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.skilledStatusHead {
+    font-size: 30px;
+    font-family: 'Bree Serif', sans-serif;
+}
+
+.skilledStatuspara1 {
+    font-family: 'Bree Serif', sans-serif;
+    color: green;
+    font-size: 20px;
+}
+
+.skilledStatuspara21 {
+    font-family: 'Bree Serif', sans-serif;
+    color: red;
+    font-size: 20px;
+}
+
+.detailsSkilledBuisness {
+    margin-top: 20px;
+    margin: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.skilledStatusHead1 {
+    font-size: 35px;
+    font-family: 'Bree Serif', sans-serif;
+}
+
+.skilledStatuspara2 {
+    font-family: 'Bree Serif', sans-serif;
+    color: black;
+    font-size: 21px;
+    padding-right: 10px;
+}
+
+.buttonSkillHelp {
+    background-color: lightgreen;
+    color: black;
+    font-family: 'Bree Serif', sans-serif;
+}
+
+.buttonSkillUnHelp {
+    background-color: red;
+    color: black;
+    font-family: 'Bree Serif', sans-serif;
+}
+
+
+
+
+
+/* section 17 Buisness home page for property */
+
+
+.fontMainPage {
+    background-color: #007bff;
+
+    text-shadow: 2px 2px 4px #000000;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 30px;
+    color: #30D6F7;
+}
+
+.headingMainPage {
+    color: #30D6F7;
+    font-size: 25px;
+    font-family: 'Bree Serif', sans-serif;
+    /* Corrected font family name */
+    padding-left: 10px;
+}
+
+.navBackground {
+    background-color: white !important;
+    border-radius: 5px;
+    /* Use !important to override Bootstrap styles */
+}
+
+.businessSkilledHomePageContainer {
+    background-color: #E1F2F7;
+    min-height: 100vh;
+}
+
+.skilledStatusCard {
+    margin-top: 60px;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.skilledStatusHead {
+    font-size: 30px;
+    font-family: 'Bree Serif', sans-serif;
+}
+
+.skilledStatuspara1 {
+    font-family: 'Bree Serif', sans-serif;
+    color: green;
+    font-size: 20px;
+}
+
+.skilledStatuspara2 {
+    font-family: 'Bree Serif', sans-serif;
+    color: red;
+    font-size: 20px;
+}
+
+.detailsSkilledBuisness {
+    margin-top: 20px;
+    margin: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.skilledStatusHead1 {
+    font-size: 35px;
+    font-family: 'Bree Serif', sans-serif;
+}
+
+.skilledStatuspara2 {
+    font-family: 'Bree Serif', sans-serif;
+    color: black;
+    font-size: 21px;
+    padding-right: 10px;
+}
+
+.buttonSkillHelp {
+    background-color: lightgreen;
+    color: black;
+    font-family: 'Bree Serif', sans-serif;
+}
+
+.buttonSkillUnHelp {
+    background-color: red;
+    color: black;
+    font-family: 'Bree Serif', sans-serif;
+}
+
+.editBtn {
+    color: white;
+    font-family: 'Bree Serif', sans-serif;
+}
+
+/* section 18 business home page for part time */
+
+
+
+.fontMainPage {
+    background-color: #007bff;
+
+    text-shadow: 2px 2px 4px #000000;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 30px;
+    color: #30D6F7;
+}
+
+.headingMainPage {
+    color: #30D6F7;
+    font-size: 25px;
+    font-family: 'Bree Serif', sans-serif;
+    /* Corrected font family name */
+    padding-left: 10px;
+}
+
+.navBackground {
+    background-color: white !important;
+    border-radius: 5px;
+    /* Use !important to override Bootstrap styles */
+}
+
+.businessSkilledHomePageContainer {
+    background-color: #E1F2F7;
+    min-height: 100vh;
+}
+
+.skilledStatusCard {
+    margin-top: 60px;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.skilledStatusHead {
+    font-size: 30px;
+    font-family: 'Bree Serif', sans-serif;
+}
+
+.skilledStatuspara1 {
+    font-family: 'Bree Serif', sans-serif;
+    color: green;
+    font-size: 20px;
+}
+
+.skilledStatuspara2 {
+    font-family: 'Bree Serif', sans-serif;
+    color: red;
+    font-size: 20px;
+}
+
+.detailsSkilledBuisness {
+    margin-top: 20px;
+    margin: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.skilledStatusHead1 {
+    font-size: 35px;
+    font-family: 'Bree Serif', sans-serif;
+}
+
+.skilledStatuspara2 {
+    font-family: 'Bree Serif', sans-serif;
+    color: black;
+    font-size: 21px;
+    padding-right: 10px;
+}
+
+.buttonSkillHelp {
+    background-color: lightgreen;
+    color: black;
+    font-family: 'Bree Serif', sans-serif;
+}
+
+.buttonSkillUnHelp {
+    background-color: red;
+    color: black;
+    font-family: 'Bree Serif', sans-serif;
+}
+
+
+
+/* section 19 business home page for location */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.fontMainPage {
+    background-color: #007bff;
+
+    text-shadow: 2px 2px 4px #000000;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 30px;
+    color: #30D6F7;
+}
+
+.headingMainPage {
+    color: #30D6F7;
+    font-size: 25px;
+    font-family: 'Bree Serif', sans-serif;
+    /* Corrected font family name */
+    padding-left: 10px;
+}
+
+.navBackground {
+    background-color: white !important;
+    border-radius: 5px;
+    /* Use !important to override Bootstrap styles */
+}
+
+.top {
+    margin-top: 100px;
+}
+
+.top1 {
+    margin-top: 260px;
+}
+
+.businessSkilledHomePageContainer {
+    background-color: #E1F2F7;
+    min-height: 100vh;
+}
+
+.skilledStatusCard {
+    margin-top: 60px;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.skilledStatusHead {
+    font-size: 30px;
+    font-family: 'Bree Serif', sans-serif;
+}
+
+.skilledStatuspara1 {
+    font-family: 'Bree Serif', sans-serif;
+    color: green;
+    font-size: 20px;
+}
+
+.skilledStatuspara2 {
+    font-family: 'Bree Serif', sans-serif;
+    color: red;
+    font-size: 20px;
+}
+
+.detailsSkilledBuisness {
+    margin-top: 20px;
+    margin: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.skilledStatusHead1 {
+    font-size: 35px;
+    font-family: 'Bree Serif', sans-serif;
+}
+
+.skilledStatuspara2 {
+    font-family: 'Bree Serif', sans-serif;
+    color: black;
+    font-size: 21px;
+    padding-right: 10px;
+}
+
+.buttonSkillHelp {
+    background-color: lightgreen;
+    color: black;
+    font-family: 'Bree Serif', sans-serif;
+}
+
+.buttonSkillUnHelp {
+    background-color: red;
+    color: black;
+    font-family: 'Bree Serif', sans-serif;
+}

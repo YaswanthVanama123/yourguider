@@ -1,0 +1,1548 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css"
+    href="index.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/68a5b899a1.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+
+<body>
+    <!--    first section MainPage -->
+
+    <div id="section1" class="d-none">
+        <div class="containerMainPage d-md-none">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light navBackground fixed-top">
+                <a class="navbar-brand" href="#"><i class="fab fa-glide brand-icon fontMainPage"></i><span class="headingMainPage">Your Guider</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto fontFamilyMainPage">
+                        <a class="nav-link active" href="#section1">
+                            Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <a class="nav-link " href="#" onclick="display2(); nullEntered()">
+                            Login
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <a class="nav-link" href="#section01">contact us</a>
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="containerMainPage d-flex flex-column justify-content-center d-md-none text-center">
+
+                <h1 class="welcomeHeadingMainPage">Welcome</h1>
+                <p class="paraMainPage">Are you ready for great experience</p>
+                <div>
+                    <a href="#section00"><button class="btn btn-primary smallGetStartedMainPage">
+                            <span class="getMainStarted">Get Started</span>
+                        </button></a>
+
+
+                    <!--        <button class="btn btn-secondary" onclick="display3()">    
+                        <i class="fa-solid fa-briefcase"></i> 
+                        Business Login</button>   -->
+                </div>
+
+            </div>
+        </div>
+        <div class=" d-md-none Background2MainPage" id="section00">
+            <div class="GetPaddingMainPage1 mb-2">
+                <h1 class="BusiHeadMainPage">User Login</h1>
+                <p class="paraMainPage1">Log in to access your personalized account and explore our services</p>
+                <div class="">
+                    <div class="mb-2 text-center">
+                        <button class="BusinessLoginMainPage1" onclick="display2(); nullEntered()">Log In</button>
+                    </div>
+                    <div class="text-center">
+                        <button class="BusinessSignUpMainPage1 btn" onclick="display4(); nullEntered()">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="GetPaddingMainPage1">
+                <h1 class="BusiHeadMainPage">Business Login</h1>
+                <p class="paraMainPage1">Log in to manage your business accounts and access exclusive tools</p>
+                <div class="mb-2 text-center">
+                    <button class="BusinessLoginMainPage1" onclick="display3(); nullEntered()">Log In</button>
+                </div>
+                <div class="text-center">
+                    <button class="BusinessSignUpMainPage1 btn" onclick="display5(); nullEntered()">Sign Up</button>
+                </div>
+            </div>
+        </div>
+        <div class=" d-md-none" id="section01">
+            <div class="greenMainpage d-flex flex-row justify-content-center remo">
+                <div>
+                    <p class="resoucesMainpage">About</p>
+                    <p>Jobs</p>
+                    <p>Features</p>
+                    <p>Partners</p>
+                </div>
+
+                <div>
+                    <p class="resoucesMainpage">contact Us</p>
+                    <p>userguider@gmail.com</p>
+                    <p>123-456-789</p>
+                    <i class="fab fa-twitter iconContactUs"></i>
+                    <i class="fab fa-instagram iconContactUS"></i>
+                    <i class="fab fa-facebook icon"></i>
+                </div>
+            </div>
+        </div>
+
+        <!--Medium section    -->
+
+        <div class="d-none d-md-block">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light navBackground fixed-top">
+                <a class="navbar-brand" href="#"><i class="fab fa-glide brand-icon fontMainPage"></i><span class="headingMainPage">Your Guider</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto fontFamilyMainPage">
+                        <a class="nav-link " href="#section1">
+                            Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <a class="nav-link " href="#" onclick="display2()">
+                            Login
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <a class="nav-link" href="#section001">Contact Us</a>
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="containerMainPage padMediumMainPage">
+                <div class="my-container d-none d-md-block GetMarginMainPage">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="GetPaddingMainPage text-center">
+                            <h1 class="welcomeHeadingMainPage marginTopMainPage">Welcome</h1>
+                            <p class="paraMainPage">Are you ready for great experience</p>
+                            <div class=" mb-5">
+                                <button class="btn btn-primary getStartedButtonMainPage">
+
+                                    <a class="nav-link " href="#section0"> <span class="getMainStarted">Get Started</span>
+                                    </a>
+
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="https://i.postimg.cc/nV5dfn6n/1699864430848-removebg-preview.png" />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="MediumPage2MainPage d-none d-md-block Background2MainPage" id="section0">
+                <div class="d-flex flex-row justify-content-center Card1MainPage mt-5 mb-5">
+                    <div class="GetPaddingMainPage1">
+                        <h1 class="BusiHeadMainPage">Business Login</h1>
+                        <p class="paraMainPage1">Log in to manage your business accounts and access exclusive tools</p>
+                        <button class="BusinessLoginMainPage" onclick="display3(); nullEntered()">Log In</button>
+
+                        <button class="BusinessSignUpMainPage btn" onclick="display5(); nullEntered()">Sign Up</button>
+                    </div>
+                    <div class="ml-5">
+                        <img src="https://i.postimg.cc/Bny7wTZB/1699866333445.jpg" class="image1MainPage" />
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center Card1MainPage mt-5 mb-5">
+                <div class="mr-5">
+                    <img src="https://i.postimg.cc/MT47jRHW/1699869412576.jpg" class="image1MainPage" />
+                </div>
+                <div class="GetPaddingMainPage1">
+                    <h1 class="BusiHeadMainPage">User Login</h1>
+                    <p class="paraMainPage1">Log in to access your personalized account and explore our services</p>
+                    <button class="BusinessLoginMainPage" onclick="display2(); nullEntered()">Log In</button>
+
+                    <button class="BusinessSignUpMainPage btn" onclick="display4(); nullEntered()">Sign Up</button>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+        <div class=" d-none d-md-block" id="section001">
+            <div class="greenMainpage d-flex flex-row remo">
+                <div>
+                    <p class="brandMainpage">Brand</p>
+                    <p class="userplusMainpage">User Plus</p>
+                </div>
+
+                <div>
+                    <p class="resoucesMainpage">Resources</p>
+                    <p>FAQ</p>
+                    <p>Contact</p>
+                    <p>Privacy</p>
+                    <p>Terms</p>
+                </div>
+
+                <div>
+                    <p class="resoucesMainpage">Support</p>
+                    <p>© 2023 Your Guider</p>
+                    <p>All rights reserved</p>
+                    <p>Your Guider</p>
+                    <p>Vijayawada</p>
+                    <p>9392365494</p>
+                </div>
+
+                <div>
+                    <p class="resoucesMainpage">About</p>
+                    <p>Jobs</p>
+                    <p>Features</p>
+                    <p>Partners</p>
+                </div>
+
+                <div>
+                    <p class="resoucesMainpage">Contact Us</p>
+                    <p>yourguider@gmail.com</p>
+                    <p>123-456-789</p>
+                    <i class="fab fa-twitter iconContactUs mr-1"></i>
+                    <i class="fab fa-instagram iconContactUS mr-1"></i>
+                    <i class="fab fa-facebook icon"></i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!--    Second section UserLogin -->
+
+    <div id="section2" class="d-none">
+        <section id="section50">
+            <div class="form-box">
+                <div class="form-value">
+                    <form action="" class="pl-3">
+                        <h2>User Login</h2>
+                        <div class="inputbox">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            <input type="text" required id="userLoginUserName">
+                            <label for="">Email</label>
+                        </div>
+                        <div class="inputbox">
+                            <div id="userLoginEye">
+                                <ion-icon name="lock-closed-outline" id="userLoginOpenEye"></ion-icon>
+                                <ion-icon name="lock-open-outline" class="d-none" id="userLoginCloseEye"></ion-icon>
+                            </div>
+                            <input type="password" required id="userLoginPassword">
+                            <label for="">Password</label>
+                        </div>
+                        <div class="forget">
+                            <label for=""><a href="#">Forget Password</a></label>
+
+                        </div>
+                        <p id="invalidUserLogin" class="text-center"></p>
+                        <button id="userLoginButton" class="userLoginButton">Log in</button>
+                        <div class="register">
+                            <p>Don't have a account
+                                <a class="nav-link " href="#" onclick="display4(); nullEntered()">Sign Up
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </p>
+                        </div>
+                        <p>
+                            <a class="nav-link " href="#" onclick="display1()">
+                                <i class="fa-solid fa-circle-arrow-left font1 mr-2" onclick="display1(); nullEntered()"></i><span class="back1">Back</span>
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </div>
+
+
+
+
+    <!--    third section Business Login -->
+
+    <div id="section3" class="d-none">
+        <section id="section100">
+            <div class="form-box">
+                <div class="form-value">
+                    <form action="" class="pl-3">
+                        <h2>Business Login</h2>
+                        <div class="inputbox">
+                            <ion-icon name="mail-outline" id=""></ion-icon>
+                            <input type="text" required id="businessLoginUserName">
+                            <label for="">Email</label>
+                        </div>
+                        <div class="inputbox">
+                            <div id="businessLoginPasswordToUser">
+                                <ion-icon name="lock-closed-outline" id="businessLoginEyeOpen"></ion-icon>
+                                <ion-icon name="lock-open-outline" class="d-none" id="businessLoginEyeClose"></ion-icon>
+                            </div>
+                            <input type="password" required id="businessLoginPassword">
+                            <label for="">Password</label>
+                        </div>
+                        <div class="forget">
+                            <label for=""><a href="#">Forget Password</a></label>
+                        </div>
+                        <p id="invalidBusiness"></p>
+                        <button id="businessLoginButton" class="businessLoginButton">Log in</button>
+                        <div class="register">
+                            <p>
+                                Don't have a account <a class="nav-link " href="#" onclick="display5(); nullEntered()">Sign Up
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </p>
+                        </div>
+                        <p>
+                            <a class="nav-link " href="#" onclick="display1()">
+                                <i class="fa-solid fa-circle-arrow-left font1 mr-2" onclick="display1(); nullEntered()"></i><span class="back1">Back</span>
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </div>
+
+
+
+
+    <!--    fourth section User SignUp -->
+
+    <div id="section4" class="d-none">
+        <section>
+            <div class="form-box">
+                <div class="form-value">
+                    <form action="">
+                        <h2 class="pt-2">User Sign Up</h2>
+                        <div class="inputbox mb-0">
+                            <ion-icon name="mail-outline" id="userSignUpemailIcon"></ion-icon>
+                            <ion-icon name="checkmark-circle-outline" class="d-none" id="userSignUpCheckIcon"></ion-icon>
+                            <ion-icon name="close-circle-outline" class="d-none" id="userSignUpWrongCheckIcon"></ion-icon>
+                            <input type="text" required id="userSignUpUserName">
+                            <label for="userSignUpUserName">Email</label>
+                        </div>
+
+                        <div class="text-right ">
+                            <label class="text-right send" id="sendOtpButton">Send OTP</label>
+
+                            <div class="otpverify1">
+                                <input type="text" id="otp_inp1" placeholder="Enter the OTP sent to your Email..." class="verifybox">
+                                <button class="btn" id="otp-btn1">Verify</button>
+                            </div>
+                        </div>
+
+                        <p id=""></p>
+                        <div class="inputbox mt-0">
+                            <div id="userSignUpPasswordToUser">
+                                <ion-icon name="lock-closed-outline" id="userSignUpopenEyePassword"></ion-icon>
+                                <ion-icon name="lock-open-outline" class="d-none" id="userSignUpcloseEyePassword"></ion-icon>
+                            </div>
+                            <input type="password" required id="userSignUpPassword">
+                            <label for="userSignUpPassword">Password</label>
+                        </div>
+                        <div class="inputbox">
+                            <div id="userSignUpCoPasswordToUser">
+                                <ion-icon name="lock-closed-outline" id="userSignUpopenEyeConfirmPassword"></ion-icon>
+                                <ion-icon name="lock-open-outline" class="d-none" id="userSignUpcloseEyeConfirmPassword"></ion-icon>
+                            </div>
+                            <input type="password" required id="userSignUpConfirmPassword">
+                            <label for="userSignUpConfirmPassword">Confirm Password</label>
+                        </div>
+                        <div class="forget">
+                            <label for=""><a href="#">Forget Password</a></label>
+
+                        </div>
+                        <p id="invalidUserSignUp"></p>
+                        <button id="userCreateButton" class="userSignUpButtonEmail">Sign Up</button>
+                        <div class="register">
+                            <p>I have already an account <a href="#" onclick="display2(); nullEntered()">Sign In</a></p>
+                        </div>
+                        <p>
+                            <a class="nav-link " href="#" onclick="display1()">
+                                <i class="fa-solid fa-circle-arrow-left font1 mr-2" onclick="display1(); nullEntered()"></i><span class="back1">Back</span>
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </div>
+
+
+    <!-- fifth  section business SignUp -->
+
+    <div id="section5" class="businessSignUpMainHeadingEmail d-none">
+        <section>
+            <div class="form-box">
+                <div class="form-value">
+                    <form action="">
+                        <h2 class="pt-2">Business Sign Up</h2>
+                        <div class="inputbox mb-0">
+                            <ion-icon name="mail-outline" id="BusinessSignUpemailIcon"></ion-icon>
+                            <ion-icon name="checkmark-circle-outline" class="d-none" id="businessSignUpCheckIcon"></ion-icon>
+                            <ion-icon name="close-circle-outline" class="d-none" id="businessSignUpwrongCheckIcon"></ion-icon>
+                            <input type="text" required id="businessSignUpUsername">
+                            <label for="businessSignUpUsername">Email</label>
+
+                        </div>
+                        <div class="text-right">
+                            <label class="text-right send" id="sendOtpButton1">Send OTP</label>
+                            <div class="otpverify">
+                                <input type="text" id="otp_inp" placeholder="Enter the OTP sent to your Email..." class="verifybox">
+                                <button class="btn" id="otp-btn">Verify</button>
+                            </div>
+                        </div>
+                        <p id="otpVerification"></p>
+                        <div class="inputbox mt-0">
+                            <div id="businessSignUpPasswordToUser">
+                                <ion-icon name="lock-closed-outline" id="businessSignUpopenEyePassword"></ion-icon>
+                                <ion-icon name="lock-open-outline" class="d-none" id="businessSignUpcloseEyePassword"></ion-icon>
+                            </div>
+                            <input type="password" required id="businessSignUpPassword">
+                            <label for="businessPassword">Password</label>
+                        </div>
+                        <div class="inputbox">
+                            <div id="businessSignUpCoPasswordToUser">
+                                <ion-icon name="lock-closed-outline" id="businessUpopenEyeConfirmPassword"></ion-icon>
+                                <ion-icon name="lock-open-outline" class="d-none" id="businessSignUpcloseEyeConfirmPassword"></ion-icon>
+                            </div>
+                            <input type="password" required id="businessSignUpConfirmPassword">
+                            <label for="businessConfirmPassword">Confirm Password</label>
+                        </div>
+
+                        <div class="forget">
+                            <label for=""><a href="#">Forget Password</a></label>
+                        </div>
+                        <p id="invalidBusinessSignUp" class="text-center"></p>
+                        <button id="BusinessCreateAccount" class="BusinessSignUpButtonEmail">Sign Up</button>
+                        <div class="register">
+                            <p>I have already an account <a href="#" onclick="display3(); nullEntered()">Sign In</a></p>
+                        </div>
+                        <p>
+                            <a class="nav-link " href="#" onclick="display1()">
+                                <i class="fa-solid fa-circle-arrow-left font1 mr-2" onclick="display1(); nullEntered()"></i><span class="back1">Back</span>
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- sixth section business service -->
+
+    <div id="section6" class="d-none">
+        <div class="text-left serviceIcon2 fixed-top">
+            <i class="fab fa-glide brand-icon iconService"></i>
+            <span class="headingServices">Your Guider</span>
+        </div>
+
+        <div class="container1 pt-5">
+            <div>
+                <h1 class="serviceHead pt-5">Select your Service</h1>
+            </div>
+            <div class="services" id="skilledWorkers">
+                <div class="service mt-5" onclick="GoTodisplay7()">
+                    <img src="https://i.postimg.cc/pLYn9760/Whats-App-Image-2023-11-15-at-22-56-54-b40d88aa.jpg" alt="Jobs">
+                    <div class="service-text d-none d-lg-block">
+                        <h1 class="serviceHead1">Skilled Workers</h1>
+                        <span class="serviceSpan">Such as Electrician,Plumber,Driver,Mechanics</span><br /><span class="serviceSpan">maons,daily-wage workers</span>
+                    </div>
+                    <div class="service-text d-lg-none">
+                        <h1 class="serviceHeadSmall">Skilled Workers</h1>
+                        <span class="serviceSpanSmall">Such as Electrician,Plumber</span><br /><span class="serviceSpanSmall">Driver,Mechanics,maons, daily-wage workers</span>
+                    </div>
+                </div>
+                <div class="service mt-5" onclick="GoTodisplay10()">
+                    <img src="https://i.postimg.cc/fLrbF7Wh/OIG-10.jpg" alt="Local Works">
+                    <div class="service-text d-lg-none">
+                        <h1 class="serviceHeadSmall">Rent or Sale your houses or shops</h1>
+                        <p class="serviceSpanSmall">Here you can rent or lease or sold your house or shops or property</p>
+                    </div>
+                    <div class="service-text d-none d-lg-block">
+                        <h1 class="serviceHead1">Rent or Sale your houses or shops</h1>
+                        <p class="serviceSpan">Here you can rent or lease or sold your house or property</p>
+                    </div>
+                </div>
+                <div class="service mt-5" onclick="GoTodisplay14()">
+                    <img src="https://i.postimg.cc/J7s569zm/OIG-13.jpg" alt="Shops Tolet">
+                    <div class="service-text d-lg-none">
+                        <h1 class="serviceHeadSmall">Pin your Shops or business places location</h1>
+                        <p class="serviceSpanSmall">Here you can place your location of shops or business places customers easy know your shop address or business places</p>
+                    </div>
+                    <div class="service-text d-none d-lg-block">
+                        <h1 class="serviceHead1">Pin your Shops or business places location</h1>
+                        <p class="serviceSpan">Here you can place your location of shops or business places customers easy know your shop address or business places</p>
+                    </div>
+                </div>
+                <div class="service mt-5" onclick="GoTodisplay12()">
+                    <img src="https://i.postimg.cc/9FcpC1dN/OIG-15.jpg" alt="Part Times">
+                    <div class="service-text d-lg-none">
+                        <h1 class="serviceHeadSmall">Search for best employee worker for your buisness</h1>
+                        <p class="serviceSpanSmall">Here you can post for employees or workers or part-times for your business</p>
+                    </div>
+                    <div class="service-text d-none d-lg-block">
+                        <h1 class="serviceHead1">Search for best employee worker for your buisness</h1>
+                        <p class="serviceSpan">Here you can post for employees or workers or part-times for your business</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-right ml-auto mt-auto">
+                <span class="logOut" onclick="display1()">Log Out</span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--seventh section skilled workers registration -->
+
+    <div class="center-container d-none" id="section7">
+        <div class="container9">
+            <header class="reg">Registration</header>
+            <form action="#" id="formRegCityAll">
+                <div class="form first" id="firstFormAll">
+                    <div class="details personal">
+                        <span class="title">Personal Detail</span>
+                        <div class="fields">
+                            <div class="input-field">
+                                <label for="field1">Email</label>
+                                <input type="text" placeholder="Enter your email" required id="field1" />
+                            </div>
+                            <div class="input-field">
+                                <label for="field2">Name</label>
+                                <input type="text" placeholder="Enter your full name" required id="field2" />
+                            </div>
+                            <div class="input-field">
+                                <label for="field3">Age</label>
+                                <input type="number" placeholder="Enter your age" required id="field3" />
+                            </div>
+                            <div class="input-field">
+                                <label for="field4">Gender</label>
+                                <select class="regSelect" id="field4">
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="others">Others</option>
+                                </select>
+                            </div>
+                            <div class="input-field">
+                                <label for="field5">Phone number</label>
+                                <input type="tel" placeholder="Enter your phone number" required id="field5" />
+                            </div>
+                            <div class="input-field">
+                                <label for="field6">State</label>
+                                <input type="text" placeholder="Enter your state" required id="field6" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="details ID">
+                        <button class="backRegistration btn bg-primary" id="backRegistration1" onclick="Godisplay6()">Back to Home</button>
+                        <button class="nextBtn buttonRegistration" id="nextBtn">
+                            <span class="btnText">
+                                Next
+                                <i class="fa-solid fa-forward"></i>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="form second">
+                    <div class="details address">
+                        <span class="title">Profession Details</span>
+                        <div class="fields">
+                            <div class="input-field">
+                                <label for="citySearchSkilled1">City</label>
+                                <input type="text" placeholder="Enter your city" required id="citySearchSkilled1" />
+                                <div>
+                                    <ul id="citySuggestionsListSkilled1"></ul>
+                                </div>
+                            </div>
+                            <div class="input-field">
+                                <label for="roadSearchInput">Area</label>
+                                <input type="address" placeholder="Enter pin code" required id="roadSearchInput" />
+                                <div>
+                                    <ul id="roadSearchSuggestions"></ul>
+                                </div>
+                            </div>
+                            <div class="input-field">
+                                <label for="field9">Pin Code</label>
+                                <input type="number" placeholder="Enter your occupation" required id="field9" />
+                            </div>
+                            <div class="input-field">
+                                <label for="searchInputOccupationReg">Occupation</label>
+                                <div class="occupation-container">
+                                    <div style="position: relative;">
+                                        <input type="text" placeholder="Enter your occupation" required id="searchInputOccupationReg" oninput="showSuggestionsOccupationReg()" onfocus="showSuggestionsOccupationReg()" />
+                                        <div id="suggestionsContainerOccupationReg" class="suggestionsOccupation"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="details family">
+                        <div class="buttons">
+                            <div class="backBtn" id="backBtn">
+                                <a href="#" class="btnText">
+                                    <i class="fa-solid fa-forward"></i>
+                                </a>
+                            </div>
+                            <button class="nextBtn btn buttonRegistration" type="button">
+                                <span class="btnText" id="submitBtn">
+                                    Submit
+                                    <i class="fa-solid fa-forward"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!-- section8 userServicePage  -->
+
+    <div id="section8" class="">
+        <div class="text-left serviceIcon2 fixed-top">
+            <i class="fab fa-glide brand-icon iconService"></i>
+            <span class="headingServices1">Your Guider</span>
+        </div>
+        <div class="container1">
+            <div class="pt-5">
+                <h1 class="serviceHead pt-5">Where you are going</h1>
+            </div>
+            <div class="services">
+                <div class="service mt-5" onclick="goTodisplay9()">
+                    <img src="https://i.postimg.cc/pLYn9760/Whats-App-Image-2023-11-15-at-22-56-54-b40d88aa.jpg" alt="Jobs">
+                    <div class="service-text d-none d-lg-block">
+                        <h1 class="serviceHead1">Skilled Workers</h1>
+                        <span class="serviceSpan">Such as Electrician,Plumber,Driver,Mechanics</span><br /><span class="serviceSpan">maons,daily-wage workers</span>
+                    </div>
+                    <div class="service-text d-lg-none">
+                        <h1 class="serviceHeadSmall">Skilled Workers</h1>
+                        <span class="serviceSpanSmall">Such as Electrician,Plumber</span><br /><span class="serviceSpanSmall">Driver,Mechanics,maons, daily-wage workers</span>
+                    </div>
+                </div>
+                <div class="service mt-5" onclick="display11()">
+                    <img src="https://i.postimg.cc/fLrbF7Wh/OIG-10.jpg" alt="Local Works">
+                    <div class="service-text d-lg-none">
+                        <h1 class="serviceHeadSmall">Rent or Buy houses or shops</h1>
+                        <p class="serviceSpanSmall">Here you can get rent or lease or buy best houses or shops or property</p>
+                    </div>
+                    <div class="service-text d-none d-lg-block">
+                        <h1 class="serviceHead1">Rent or Buy houses or shops</h1>
+                        <p class="serviceSpan">Here you can get rent or lease or buy best houses or shops or property</p>
+                    </div>
+                </div>
+                <div class="service mt-5" onclick="display15()">
+                    <img src="https://i.postimg.cc/J7s569zm/OIG-13.jpg" alt="Shops Tolet">
+                    <div class="service-text d-lg-none">
+                        <h1 class="serviceHeadSmall">Restaurants or Visiting places in the city</h1>
+                        <p class="serviceSpanSmall">Here you can find the restaurants and Visiting places location what you want city of your choice</p>
+                    </div>
+                    <div class="service-text d-none d-lg-block">
+                        <h1 class="serviceHead1">Restaurants or Visiting places in the city</h1>
+                        <p class="serviceSpan">Here you can find the restaurants and Visiting places location what you want city of your choice</p>
+                    </div>
+                </div>
+                <div class="service mt-5" onclick="display13()">
+                    <img src="https://i.postimg.cc/9FcpC1dN/OIG-15.jpg" alt="Part Times">
+                    <div class="service-text d-lg-none">
+                        <h1 class="serviceHeadSmall">Best Part time Jobs</h1>
+                        <p class="serviceSpanSmall">Here are the best part time jobs for you</p>
+                    </div>
+                    <div class="service-text d-none d-lg-block">
+                        <h1 class="serviceHead1">Best Part time Jobs</h1>
+                        <p class="serviceSpan">Here are the best part time jobs for you</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-right ml-auto mt-auto">
+                <span class="logOut" onclick="logout()">Log Out</span>
+            </div>
+        </div>
+    </div>
+
+    <!--  section9 user Home page-->
+
+
+    <div class="homePage" id="section9">
+        <div class="serviceIcon1 fixed-top">
+            <i class="fab fa-glide brand-icon iconService"></i>
+            <span class="homeGuider">Your Guider</span>
+            <div class="d-flex flex-row">
+                <div class="text-left img_containerBack" onclick="backToServiceFunction()">
+                    <ion-icon name="arrow-back-outline" class="backImageHomeToService"></ion-icon>
+                </div>
+                <div class="m-auto">
+                    <input type="search" class="search-input inputLocation" placeholder="Location..." id="searchInputskilled" />
+                    <ion-icon name="location-outline" class="icon-left" id="get-location"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <div id="location-details" class="top">
+
+        </div>
+        <div class="">
+            <ul id="suggestionsListSkilled"></ul>
+        </div>
+        <div class="bk">
+            <div class="search-container">
+                <div>
+                    <input type="text" placeholder="Search..." id="searchInputOccupationSearch" oninput="showsuggestionsOccupationSearch()" onfocus="showsuggestionsOccupationSearch()" class="search-input ml-4">
+                    <div id="suggestionsOccupationSearchContainer" class="suggestionsOccupationSearch"></div>
+                    <button type="submit">Search</button>
+
+                </div>
+                <div id="suggestionsOccupationSearchContainer" class="suggestionsOccupationSearch"></div>
+            </div>
+            <div class="hex">
+                <div class="conatiner">
+                    <div class="row m-3" id="homeContainerSkilled">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- section10 property Registration form -->
+
+    <div class="center-container d-none" id="section10">
+        <div class="container9">
+            <header class="reg">Registration</header>
+            <form action="#" id="formRegCityAllProperty">
+                <div class="form first" id="firstFormAll">
+                    <div class="details personal">
+                        <span class="title">Personal Detail</span>
+                        <div class="fields">
+                            <div class="input-field">
+                                <label for="field1Property">Email</label>
+                                <input type="text" placeholder="Enter your email" required id="field1Property" />
+                            </div>
+                            <div class="input-field">
+                                <label for="field2Property">Name</label>
+                                <input type="text" placeholder="Enter your full name" required id="field2Property" />
+                            </div>
+                            <div class="input-field">
+                                <label for="field3Property">Age</label>
+                                <input type="number" placeholder="Enter your age" required id="field3Property" />
+                            </div>
+                            <div class="input-field">
+                                <label for="field4Property">How many members can stay</label>
+                                <input type="text" placeholder="Optional" id="field4Property" />
+                            </div>
+                            <div class="input-field">
+                                <label for="field5Property">Phone number</label>
+                                <input type="tel" placeholder="Enter your phone number" required id="field5Property" />
+                            </div>
+                            <div class="input-field">
+                                <label for="field6Property">State</label>
+                                <input type="text" placeholder="Enter your state" required id="field6Property" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="details ID">
+                        <button class="backRegistration btn bg-primary" id="backRegistration2" onclick="Godisplay61()">Back to Home</button>
+                        <button class="nextBtnProperty buttonRegistration" id="nextBtnProperty">
+                            <span class="btnText">
+                                Next
+                                <i class="fa-solid fa-forward"></i>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="form second">
+                    <div class="details address">
+                        <span class="title">Property Details</span>
+                        <div class="fields">
+                            <div class="input-field">
+                                <label for="citySearchProperty">City</label>
+                                <input type="text" placeholder="Enter your city" required id="citySearchProperty" />
+                                <div>
+                                    <ul id="citySuggestionsProperty"></ul>
+                                </div>
+                            </div>
+                            <div class="input-field">
+                                <label for="roadSearchInputProperty">Area</label>
+                                <input type="address" placeholder="Enter pin code" required id="roadSearchInputProperty" />
+                                <div>
+                                    <ul id="roadSearchSuggestionsProperty"></ul>
+                                </div>
+                            </div>
+                            <div class="input-field">
+                                <label for="field9Property">Pin Code</label>
+                                <input type="number" placeholder="Enter your PinCode" required id="field9Property" />
+                            </div>
+                            <!--        <div class="input-field">
+                                <label for="searchInputOccupationRegProperty">Occupation</label>
+                                <div class="occupation-container">
+                                    <div style="position: relative;">
+                                        <input type="text" placeholder="Enter your occupation" required id="searchInputOccupationRegProperty" oninput="showSuggestionsOccupationRegProperty()" onfocus="showSuggestionsOccupationRegProperty()" />
+                                        <div id="suggestionsContainerOccupationRegProperty" class="suggestionsOccupation"></div>
+                                    </div>
+                                </div>
+                            </div>    -->
+
+
+                            <div class="input-field">
+                                <label for="searchInputOccupationRegProperty">Property</label>
+                                <select class="regSelect" id="searchInputOccupationRegProperty">
+                                    <option value="Shop">Shop</option>
+                                    <option value="House">House</option>
+                                    <option value="Place">Place or property</option>
+                                </select>
+                            </div>
+
+
+                            <!--             <div class="input-field">
+                                <label for="field11Property">Date of Birth</label>
+                                <input type="date" placeholder="Enter your date of birth" required id="field11Property" />
+                            </div> -->
+
+                            <div class="input-field">
+                                <label for="field11Property">Type</label>
+                                <select class="regSelect" id="field11Property">
+                                    <option value="Rent">Rent</option>
+                                    <option value="Lease">Lease</option>
+                                    <option value="Sale">Sale</option>
+                                </select>
+                            </div>
+
+
+
+
+                            <div class="input-field">
+                                <label for="field12Property">Estimated Cost</label>
+                                <input type="text" placeholder="Estimated cost" required id="field12Property" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="details family">
+                        <div class="buttons">
+                            <div class="backBtnProperty" id="backBtnProperty">
+                                <a href="#" class="btnText">
+                                    <i class="fa-solid fa-forward"></i>
+                                </a>
+                            </div>
+                            <button class="nextBtnProperty btn buttonRegistration" type="button">
+                                <span class="btnText" id="submitBtnProperty">
+                                    Submit
+                                    <i class="fa-solid fa-forward"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- section11 property user homepage -->
+
+    <div class="homePage d-none" id="section11">
+        <div class="serviceIcon fixed-top">
+            <i class="fab fa-glide brand-icon iconService"></i>
+            <span class="homeGuider">Your Guider</span>
+            <div class="d-flex flex-row">
+                <div class="text-left" onclick="backToServiceFunction()">
+                    <ion-icon name="arrow-back-outline" class="backImageHomeToService"></ion-icon>
+                </div>
+                <div class="m-auto">
+                    <input type="search" class="search-input" placeholder="Location..." id="searchInputProperty2" />
+                    <ion-icon name="location-outline" class="icon-left" id="locationButtonProperty2"></ion-icon>
+                </div>
+            </div>
+
+        </div>
+        <div id="locationDivProperty2" class="top">
+
+        </div>
+        <div class="">
+            <ul id="suggestionsListProperty2"></ul>
+        </div>
+        <div class="bk">
+            <div class="search-container">
+                <div>
+                    <input type="text" placeholder="Search..." id="searchInputpropertySearch" oninput="showsearchInputProperty2OccupationSearch()" onfocus="showsearchInputProperty2OccupationSearch()" class="search-input ml-4">
+                    <div id="suggestionsOccupationSearchContainerProperty2" class="suggestionsOccupationSearch"></div>
+                    <button type="submit">Search</button>
+
+                </div>
+                <div id="suggestionsOccupationSearchContainerProperty2" class="suggestionsOccupationSearch"></div>
+            </div>
+            <div class="hex">
+                <div class="conatiner">
+                    <div class="row m-3" id="homeContainerProperty1">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- section12 registration for parttimes -->
+
+    <div class="center-container d-none" id="section12">
+        <div class="container9">
+            <header class="reg">Registration</header>
+            <form action="#" id="formRegCityAllParttime">
+                <div class="form first" id="firstFormAll">
+                    <div class="details personal">
+                        <span class="title">Personal Detail</span>
+                        <div class="fields">
+                            <div class="input-field">
+                                <label for="PartTime1">Email</label>
+                                <input type="text" placeholder="Enter your email" required id="PartTime1" />
+                            </div>
+
+                            <div class="input-field">
+                                <label for="PartTime3">Shopname or Companyname</label>
+                                <input type="text" placeholder="Enter your full name" required id="PartTime3" />
+                            </div>
+                            <div class="input-field">
+                                <label for="PartTime4">Type</label>
+                                <select class="regSelect" id="PartTime4">
+                                    <option value="Part Time">Part Time</option>
+                                    <option value="Full Time<">Full Time</option>
+                                </select>
+                            </div>
+                            <div class="input-field">
+                                <label for="PartTime5">Phone number</label>
+                                <input type="tel" placeholder="Enter your phone number" required id="PartTime5" />
+                            </div>
+                            <div class="input-field">
+                                <label for="PartTime6">No of Vacancies</label>
+                                <input type="number" placeholder="Enter vacancies" required id="PartTime6" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="details ID">
+                        <button class="backRegistration btn bg-primary" id="backRegistration3">Back to Home</button>
+                        <button class="nextBtnParttime buttonRegistration" id="nextBtnParttime">
+                            <span class="btnText">
+                                Next
+                                <i class="fa-solid fa-forward"></i>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="form second">
+                    <div class="details address">
+                        <span class="title">Profession Details</span>
+                        <div class="fields">
+                            <div class="input-field">
+                                <label for="citySearchParttime">City</label>
+                                <input type="text" placeholder="Enter your city" required id="citySearchParttime" />
+                                <div>
+                                    <ul id="citySuggestionsListPartTime"></ul>
+                                </div>
+                            </div>
+                            <div class="input-field">
+                                <label for="roadSearchInputParttime">Area</label>
+                                <input type="address" placeholder="Enter pin code" required id="roadSearchInputParttime" />
+                                <div>
+                                    <ul id="roadSearchSuggestionsListParttime"></ul>
+                                </div>
+                            </div>
+                            <div class="input-field">
+                                <label for="PartTime9">Pin Code</label>
+                                <input type="number" placeholder="Enter your occupation" required id="PartTime9" />
+                            </div>
+
+
+                            <div class="input-field">
+                                <label for="searchInputOccupationRegParttime">Education</label>
+                                <select class="regSelect" id="searchInputOccupationRegParttime">
+                                    <option value="Any One">Any One</option>
+                                    <option value="Above 10th">Above 10th</option>
+                                    <option value="PG">PG</option>
+                                </select>
+                            </div>
+
+                            <div class="input-field">
+                                <label for="PartTime11">Expected Salary</label>
+                                <input type="number" placeholder="Enter expected Salary" required id="PartTime11" />
+                            </div>
+                            <div class="input-field">
+                                <label for="PartTime2">Job For</label>
+                                <select class="regSelect" id="PartTime2">
+                                    <option value="Any One">Any One</option>
+                                    <option value="Only for mens">Only for mens</option>
+                                    <option value="Only for women">Only for women</option>
+                                </select>
+
+                            </div>
+                        </div>
+
+                        <div class="details family">
+                            <div class="buttons">
+                                <div class="backBtnParttime" id="backBtnParttime">
+                                    <a href="#" class="btnText">
+                                        <i class="fa-solid fa-forward"></i>
+                                    </a>
+                                </div>
+                                <button class="nextBtnParttime btn buttonRegistration" type="button">
+                                    <span class="btnText" id="submitButtonParttime">
+                                        Submit
+                                        <i class="fa-solid fa-forward"></i>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- section 13 user home page for parttimes -->
+
+    <div class="homePage d-none" id="section13">
+        <div class="serviceIcon fixed-top">
+            <i class="fab fa-glide brand-icon iconService"></i>
+            <span class="homeGuider">Your Guider</span>
+            <div class="d-flex flex-row">
+                <div class="text-left img_containerBack" onclick="backToServiceFunction()">
+                    <ion-icon name="arrow-back-outline" class="backImageHomeToService"></ion-icon>
+                </div>
+                <div class="m-auto">
+                    <input type="search" class="search-input" placeholder="Location..." id="searchInputPartTime" />
+                    <ion-icon name="location-outline" class="icon-left" id="locationButtonPartTime"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <div id="locationDivPartTime" class="top">
+
+        </div>
+        <div class="">
+            <ul id="suggestionsListPartTime"></ul>
+        </div>
+        <div class="bk">
+            <div class="search-container">
+                <div>
+                    <input type="text" placeholder="Search..." id="searchInputPartTimeSearch" oninput="showsearchInputPartTimeOccupationSearch()" onfocus="showsearchInputPartTimeOccupationSearch()" class="search-input ml-4">
+                    <div id="suggestionsOccupationSearchContainerPartTime" class="suggestionsOccupationSearch"></div>
+                    <button type="submit">Search</button>
+
+                </div>
+                <div id="suggestionsOccupationSearchContainerPartTime" class="suggestionsOccupationSearch"></div>
+            </div>
+            <div class="hex">
+                <div class="conatiner">
+                    <div class="row m-3" id="homeContainerPartTIme">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 14 user registration form for location -->
+
+    <div class="center-container d-none" id="section14">
+        <div class="container9">
+            <header class="reg">Registration</header>
+            <form action="#" id="formRegCityAllLocation">
+                <div class="form first" id="firstFormAll">
+                    <div class="details personal">
+                        <span class="title">Personal Detail</span>
+                        <div class="fields">
+                            <div class="input-field">
+                                <label for="locationfield1">Email</label>
+                                <input type="email" placeholder="Enter your email" required id="locationfield1" />
+                            </div>
+                            <div class="input-field">
+                                <label for="locationfield2">Shop Name</label>
+                                <input type="text" placeholder="Enter your Shop Name" required id="locationfield2" />
+                            </div>
+                            <div class="input-field">
+                                <label for="locationfield3">How many days open in a week</label>
+                                <select class="regSelect" id="locationfield3">
+                                    <option value="Every day Opens">Every day Opens</option>
+                                    <option value="Except Sunday opens">Except Sunday opens</option>
+                                </select>
+                            </div>
+                            <div class="input-field">
+                                <label for="locationfield4">Opens at</label>
+                                <input type="text" placeholder="Please include AM or PM" required id="locationfield4" />
+                            </div>
+                            <div class="input-field">
+                                <label for="locationfield5">Closes at</label>
+                                <input type="text" placeholder="Please include AM or PM" required id="locationfield5" />
+                            </div>
+                            <div class="input-field">
+                                <label for="locationfield6">Phone no</label>
+                                <input type="tel" placeholder="Enter your Phone number" required id="locationfield6" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="details ID">
+                        <button class="backRegistration btn bg-primary" id="backRegistration1" onclick="display6()">Back to Home</button>
+                        <button class="nextBtnLocation buttonRegistration" id="nextBtnLocation">
+                            <span class="btnText">
+                                Next
+                                <i class="fa-solid fa-forward"></i>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="form second">
+                    <div class="details address">
+                        <span class="title">Profession Details</span>
+                        <div class="fields">
+                            <div class="input-field">
+                                <label for="citySearchLocation">City</label>
+                                <input type="text" placeholder="Enter your city" required id="citySearchLocation" />
+                                <div>
+                                    <ul id="citySuggestionsListLocation"></ul>
+                                </div>
+                            </div>
+                            <div class="input-field">
+                                <label for="roadSearchInputLocation">Area</label>
+                                <input type="address" placeholder="Enter pin code" required id="roadSearchInputLocation" />
+                                <div>
+                                    <ul id="roadSearchSuggestionsLocation"></ul>
+                                </div>
+                            </div>
+                            <div class="input-field">
+                                <label for="locationfield9">State</label>
+                                <input type="text" placeholder="Enter your State" required id="locationfield9" />
+                            </div>
+                            <div class="input-field">
+                                <label for="searchInputOccupationRegLocation">Type</label>
+                                <div class="occupation-container">
+                                    <div style="position: relative;">
+                                        <input type="text" placeholder="Enter your " required id="searchInputOccupationRegLocation" oninput="showSuggestionsOccupationRegLocation()" onfocus="showSuggestionsOccupationRegLocation()" />
+                                        <div id="suggestionsContainerOccupationRegLocation" class="suggestionsOccupation"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="input-field">
+                                <label for="locationfield11">Pin code</label>
+                                <input type="number" placeholder="Enter your area pincode" required id="locationfield11" />
+                            </div>
+                            <div class="input-field">
+                                <label for="locationfield12">what is the Special in your shop</label>
+                                <input type="email" placeholder="Enter your special in your shop" required id="locationfield12" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="details family">
+                        <div class="buttons">
+                            <div class="backBtnLocation" id="backBtnLocation">
+                                <a href="#" class="btnText">
+                                    <i class="fa-solid fa-forward"></i>
+                                </a>
+                            </div>
+                            <button class="nextBtnLocation btn buttonRegistration" type="button">
+                                <span class="btnText" id="submitButtonLocation">
+                                    Submit
+                                    <i class="fa-solid fa-forward"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- section 15 user home page for location  -->
+
+    <div class="homePage" id="section15">
+        <div class="serviceIcon fixed-top">
+            <i class="fab fa-glide brand-icon iconService"></i>
+            <span class="homeGuider">Your Guider</span>
+            <div class="d-flex flex-row mt-2">
+                <div class="text-left img_containerBack" onclick="backToServiceFunction()">
+                    <ion-icon name="arrow-back-outline" class="backImageHomeToService"></ion-icon>
+                </div>
+                <div class="m-auto">
+                    <input type="search" class="search-input" placeholder="Location..." id="searchInputLocation" />
+                    <ion-icon name="location-outline" class="icon-left" id="locationButtonLocation"></ion-icon>
+                </div>
+            </div>
+
+        </div>
+        <div id="locationDivLocation" class="top">
+
+        </div>
+        <div class="">
+            <ul id="suggestionsListLocation"></ul>
+        </div>
+        <div class="bk">
+            <div class="search-container">
+                <div>
+                    <input type="text" placeholder="Search..." id="searchInputLocationSearch" oninput="showsearchInputLocationOccupationSearch()" onfocus="showsearchInputLocationOccupationSearch()" class="search-input ml-4">
+                    <div id="suggestionsOccupationSearchContainerLocation" class="suggestionsOccupationSearch"></div>
+                    <button type="submit">Search</button>
+
+                </div>
+                <div id="suggestionsOccupationSearchContainerLocation" class="suggestionsOccupationSearch"></div>
+            </div>
+            <div class="hex">
+                <div class="conatiner">
+                    <div class="row m-3" id="homeContainerLocation">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 16 Buisness home page for Skilled Workers  -->
+
+    <div class="d-none" id="section16">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light navBackground fixed-top">
+                <a class="navbar-brand" href="#"><i class="fab fa-glide brand-icon fontMainPage"></i><span class="headingMainPage">Your Guider</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto fontFamilyMainPage">
+                        <a class="nav-link active" href="#section1">
+
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <a class="nav-link " href="#" onclick="display2(); nullEntered()">
+
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <a class="nav-link" href="#"></a>
+                        <a class="nav-link " href="#" onclick="display6()">LogOut <span class="sr-only">(current)</span></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="businessSkilledHomePageContainer mt-5">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="skilledStatusCard shadow pt-3">
+                    <h1 class="skilledStatusHead text-center">Your Current Status <span id="currentStatusPresent1"></span></h1>
+                    <div class="text-center mt-5">
+                        <button class="btn buttonSkillHelp" id="buttonSkillHelp">Ready to Help</button>
+                        <button class="btn buttonSkillUnHelp" id="buttonSkillUnHelp">Unable to Help</button>
+                        <p class="pt-5 skilledStatuspara1" id="buttonSkillHelpPara">Great to hear now you are online your deatils will display to the user</p>
+                        <p class="skilledStatuspara21 d-none pt-5" id="buttonSkillUnHelpPara">Now you are offline please come as soon as possible click green button to online</p>
+                    </div>
+                </div>
+            </div>
+            <div class="detailsSkilledBuisness mt-4 m-3 mb-3 shadow">
+                <h1 class="text-center skilledStatusHead1">Your Details</h1>
+                <div class="d-flex flex-row justify-content-center mt-5">
+                    <div class="mr-3">
+                        <h1 class="skilledStatuspara2">Email :</h1>
+                        <h1 class="skilledStatuspara2">Name :</h1>
+                        <h1 class="skilledStatuspara2">Age : </h1>
+                        <h1 class="skilledStatuspara2">Gender :</h1>
+                        <h1 class="skilledStatuspara2">Phone no :</h1>
+                        <h1 class="skilledStatuspara2">State :</h1>
+                        <h1 class="skilledStatuspara2">City :</h1>
+                        <h1 class="skilledStatuspara2">Area :</h1>
+                        <h1 class="skilledStatuspara2">Pin Code :</h1>
+                        <h1 class="skilledStatuspara2">Occupation:</h1>
+                    </div>
+                    <div id="skilledDetails1 ml-5">
+                        <h1 class="skilledStatuspara2" id="sk1"></h1>
+                        <h1 class="skilledStatuspara2" id="sk2"></h1>
+                        <h1 class="skilledStatuspara2" id="sk3"></h1>
+                        <h1 class="skilledStatuspara2" id="sk4"></h1>
+                        <h1 class="skilledStatuspara2" id="sk5"></h1>
+                        <h1 class="skilledStatuspara2" id="sk6"></h1>
+                        <h1 class="skilledStatuspara2" id="sk7"></h1>
+                        <h1 class="skilledStatuspara2" id="sk8"></h1>
+                        <h1 class="skilledStatuspara2" id="sk9"></h1>
+                        <h1 class="skilledStatuspara2" id="sk10"></h1>
+                    </div>
+                </div>
+                <div class="mt-5 text-center">
+                    <button class="btn bg-primary editBtn" onclick="preSkilledWorkers()">Edit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- section 17 Buisness home page for property  -->
+
+    <div class="d-none" id="section17">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light navBackground fixed-top">
+                <a class="navbar-brand" href="#"><i class="fab fa-glide brand-icon fontMainPage"></i><span class="headingMainPage">Your Guider</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto fontFamilyMainPage">
+                        <a class="nav-link active" href="#section6">
+
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <a class="nav-link " href="#" onclick="display2(); nullEntered()">
+
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <a class="nav-link" href="#"></a>
+                        <a class="nav-link " href="#" onclick="display6()">LogOut <span class="sr-only">(current)</span></a>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="businessSkilledHomePageContainer mt-5">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="skilledStatusCard shadow pt-3">
+                    <h1 class="skilledStatusHead text-center" id="">Your Current Status <span id="currentStatusPresent2"></span></h1>
+                    <div class="text-center mt-5">
+                        <button class="btn buttonSkillHelp" id="buttonPropertyHelp">Ready to Help</button>
+                        <button class="btn buttonSkillUnHelp" id="buttonPropertyUnHelp">Unable to Help</button>
+                        <p class="pt-5 skilledStatuspara1" id="buttonPropertyHelpPara">Great to hear now you are online your deatils will display to the user</p>
+                        <p class="skilledStatuspara2 d-none pt-5" id="buttonPropertyUnHelpPara">Now you are offline please come as soon as possible click green button to online</p>
+                    </div>
+                </div>
+            </div>
+            <div class="detailsSkilledBuisness mt-4 m-3 mb-3 shadow">
+                <h1 class="text-center skilledStatusHead1">Your Details</h1>
+                <div class="d-flex flex-row justify-content-center mt-5">
+                    <div class="mr-3">
+                        <h1 class="skilledStatuspara2">Email :</h1>
+                        <h1 class="skilledStatuspara2">Name :</h1>
+                        <h1 class="skilledStatuspara2">Age : </h1>
+                        <h1 class="skilledStatuspara2">Members can stay :</h1>
+                        <h1 class="skilledStatuspara2">Phoneno :</h1>
+                        <h1 class="skilledStatuspara2">State :</h1>
+                        <h1 class="skilledStatuspara2">City :</h1>
+                        <h1 class="skilledStatuspara2">Area :</h1>
+                        <h1 class="skilledStatuspara2">Pin Code :</h1>
+                        <h1 class="skilledStatuspara2">Property :</h1>
+                        <h1 class="skilledStatuspara2">Type :</h1>
+                        <h1 class="skilledStatuspara2">Estimation Cost :</h1>
+                    </div>
+                    <div id="skilledDetails1 ml-5">
+                        <h1 class="skilledStatuspara2" id="pr1"></h1>
+                        <h1 class="skilledStatuspara2" id="pr2"></h1>
+                        <h1 class="skilledStatuspara2" id="pr3"></h1>
+                        <h1 class="skilledStatuspara2" id="pr4"></h1>
+                        <h1 class="skilledStatuspara2" id="pr5"></h1>
+                        <h1 class="skilledStatuspara2" id="pr6"></h1>
+                        <h1 class="skilledStatuspara2" id="pr7"></h1>
+                        <h1 class="skilledStatuspara2" id="pr8"></h1>
+                        <h1 class="skilledStatuspara2" id="pr9"></h1>
+                        <h1 class="skilledStatuspara2" id="pr10"></h1>
+                        <h1 class="skilledStatuspara2" id="pr11"></h1>
+                        <h1 class="skilledStatuspara2" id="pr12"></h1>
+                    </div>
+                </div>
+                <div class="mt-5 text-center">
+                    <button class="btn bg-primary editBtn" onclick="preProperty()">Edit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 18 Buisness home page for Part Time  -->
+
+    <div class="d-none" id="section18">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light navBackground fixed-top">
+                <a class="navbar-brand" href="#"><i class="fab fa-glide brand-icon fontMainPage"></i><span class="headingMainPage">Your Guider</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto fontFamilyMainPage">
+                        <a class="nav-link active" href="#section1">
+
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <a class="nav-link " href="#" onclick="display2(); nullEntered()">
+
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <a class="nav-link" href="#"></a>
+                        <a class="nav-link " href="#" onclick="display6()">LogOut <span class="sr-only">(current)</span></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="businessSkilledHomePageContainer mt-5">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="skilledStatusCard shadow pt-3">
+                    <h1 class="skilledStatusHead text-center">Your Current Status <span id="currentStatusPresent3"></span></h1>
+                    <div class="text-center mt-5">
+                        <button class="btn buttonSkillHelp" id="buttonPartTimeHelp">Ready to Help</button>
+                        <button class="btn buttonSkillUnHelp" id="buttonPartTimeUnHelp">Unable to Help</button>
+                        <p class="pt-5 skilledStatuspara1" id="buttonPartTimeHelpPara">Great to hear now you are online your deatils will display to the user</p>
+                        <p class="skilledStatuspara2 d-none pt-5" id="buttonPartTimeUnHelpPara">Now you are offline please come as soon as possible click green button to online</p>
+                    </div>
+                </div>
+            </div>
+            <div class="detailsSkilledBuisness mt-4 m-3 mb-3 shadow">
+                <h1 class="text-center skilledStatusHead1">Your Details</h1>
+                <div class="d-flex flex-row justify-content-center mt-5">
+                    <div class="mr-3">
+                        <h1 class="skilledStatuspara2">Email :</h1>
+                        <h1 class="skilledStatuspara2">Job for :</h1>
+                        <h1 class="skilledStatuspara2">Company or Shop name : </h1>
+                        <h1 class="skilledStatuspara2">Type :</h1>
+                        <h1 class="skilledStatuspara2">Phoneno :</h1>
+                        <h1 class="skilledStatuspara2">Vacancies :</h1>
+                        <h1 class="skilledStatuspara2">City :</h1>
+                        <h1 class="skilledStatuspara2">Area :</h1>
+                        <h1 class="skilledStatuspara2">Pincode :</h1>
+                        <h1 class="skilledStatuspara2">Education :</h1>
+                        <h1 class="skilledStatuspara2">Salary :</h1>
+
+                    </div>
+                    <div id="skilledDetails1 ml-5">
+                        <h1 class="skilledStatuspara2" id="PT1"></h1>
+                        <h1 class="skilledStatuspara2" id="PT2"></h1>
+                        <h1 class="skilledStatuspara2" id="PT3"></h1>
+                        <h1 class="skilledStatuspara2" id="PT4"></h1>
+                        <h1 class="skilledStatuspara2" id="PT5"></h1>
+                        <h1 class="skilledStatuspara2" id="PT6"></h1>
+                        <h1 class="skilledStatuspara2" id="PT7"></h1>
+                        <h1 class="skilledStatuspara2" id="PT8"></h1>
+                        <h1 class="skilledStatuspara2" id="PT9"></h1>
+                        <h1 class="skilledStatuspara2" id="PT10"></h1>
+                        <h1 class="skilledStatuspara2" id="PT11"></h1>
+
+                    </div>
+                </div>
+                <div class="mt-5 text-center">
+                    <button class="btn bg-primary editBtn" onclick="prePartTime()">Edit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- section 19 Buisness home page for Location  -->
+
+    <div class="" id="section19">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light navBackground fixed-top">
+                <a class="navbar-brand" href="#"><i class="fab fa-glide brand-icon fontMainPage"></i><span class="headingMainPage">Your Guider</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto fontFamilyMainPage">
+                        <a class="nav-link active" href="#section1">
+
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <a class="nav-link " href="#" onclick="display2(); nullEntered()">
+
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <a class="nav-link" href="#"></a>
+                        <a class="nav-link " href="#" onclick="display6()">LogOut <span class="sr-only">(current)</span></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="businessSkilledHomePageContainer mt-5">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="skilledStatusCard shadow pt-3">
+                    <h1 class="skilledStatusHead text-center">Your Current Status</h1>
+                    <div class="text-center mt-5">
+                        <button class="btn buttonSkillHelp" id="buttonLocationHelp">Ready to Help</button>
+                        <button class="btn buttonSkillUnHelp" id="buttonLocationUnHelp">Unable to Help</button>
+                        <p class="pt-5 skilledStatuspara1" id="buttonLocationHelpPara">Great to hear now you are online your deatils will display to the user</p>
+                        <p class="skilledStatuspara2 d-none pt-5" id="buttonLocationUnHelpPara">Now you are offline please come as soon as possible click green button to online</p>
+                    </div>
+                </div>
+            </div>
+            <div class="detailsSkilledBuisness mt-4 m-3 mb-3 shadow">
+                <h1 class="text-center skilledStatusHead1">Your Details</h1>
+                <div class="d-flex flex-row justify-content-center mt-5">
+                    <div class="mr-3">
+                        <h1 class="skilledStatuspara2">Email :</h1>
+                        <h1 class="skilledStatuspara2">Shop name :</h1>
+                        <h1 class="skilledStatuspara2">Opens in a week : </h1>
+                        <h1 class="skilledStatuspara2">Opens at :</h1>
+                        <h1 class="skilledStatuspara2">Closes at :</h1>
+                        <h1 class="skilledStatuspara2">Phone no :</h1>
+                        <h1 class="skilledStatuspara2">City :</h1>
+                        <h1 class="skilledStatuspara2">Area :</h1>
+                        <h1 class="skilledStatuspara2">State :</h1>
+                        <h1 class="skilledStatuspara2">Type :</h1>
+                        <h1 class="skilledStatuspara2">Pin Code :</h1>
+                        <h1 class="skilledStatuspara2">special :</h1>
+
+                    </div>
+                    <div id="skilledDetails1 ml-5">
+                        <h1 class="skilledStatuspara2" id="L1"></h1>
+                        <h1 class="skilledStatuspara2" id="L2"></h1>
+                        <h1 class="skilledStatuspara2" id="L3"></h1>
+                        <h1 class="skilledStatuspara2" id="L4"></h1>
+                        <h1 class="skilledStatuspara2" id="L5"></h1>
+                        <h1 class="skilledStatuspara2" id="L6"></h1>
+                        <h1 class="skilledStatuspara2" id="L7"></h1>
+                        <h1 class="skilledStatuspara2" id="L8"></h1>
+                        <h1 class="skilledStatuspara2" id="L9"></h1>
+                        <h1 class="skilledStatuspara2" id="L10"></h1>
+                        <h1 class="skilledStatuspara2" id="L11"></h1>
+                        <h1 class="skilledStatuspara2" id="L12"></h1>
+                        <h1 class="skilledStatuspara2" id="L13"></h1>
+
+                    </div>
+                </div>
+                <div class="mt-5 text-center">
+                    <button class="btn bg-primary editBtn" onclick="preLocation()">Edit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src='index.js'></script>
+</body>
+
+</html>
